@@ -145,7 +145,7 @@ locals {
   })
 
   app_settings_for_api_for_abc = tomap({
-    "VERTICAL_CODE" = ""
+    "CODE" = ""
   })
 
   app_settings_for_xyz_api = merge(local.app_settings_for_api, local.app_settings_for_api_for_xyz)
